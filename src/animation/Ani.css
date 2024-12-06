@@ -1,0 +1,60 @@
+/* text.js */
+
+.hover{
+    width: 6ch;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: 1px solid;
+    animation: typing 1s steps(6);
+}
+
+@keyframes typing {
+    from {width: 0ch;}
+}
+
+.element {
+    animation: move 2s steps(5) infinite;
+  }
+  
+  @keyframes move {
+    from { transform: translateX(0); }
+    to { transform: translateX(100px); }
+  }
+
+  .div{
+    width: 100px;
+    height: 100px;
+    writing-mode: vertical-rl;
+  }
+  
+
+  /* gradient.js  */
+
+
+.radial{
+    background: radial-gradient(circle,red, blue, green);
+    width: 20%;
+    padding: 80px;
+}
+
+
+.repeat{
+    background: repeating-linear-gradient(to left, red, blue, red, blue, red, blue);
+  padding: 50px;
+  width: 10%;
+}
+
+.rep{
+    background: repeating-radial-gradient(circle, red, blue, green, red, blue, green);
+  padding: 50px;
+  width: 10%;
+}
+
+.con {
+    background: conic-gradient(from 45deg, red, yellow, lime, aqua, blue);
+    padding: 50px;
+    width: 20%;
+    height: 10%;
+}
+
+
